@@ -1,5 +1,5 @@
 import { Server } from "socket.io"
 
 export const getChatNamespace = (io: Server) => {
-  return io.of('/auth')
+  return io.of('/chat')
 }
